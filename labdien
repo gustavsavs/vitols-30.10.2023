@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 3 Films</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+        }
+        .photo-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .photo-item {
+            text-align: left;
+            margin: 10px 0;
+        }
+        .photo-item img {
+            width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Top 3 Films</h1>
+        <p>Here is a list of my top 3 films:</p>
+        <ol>
+            <li>Snowfall</li>
+            <li>Breaking Bad</li>
+            <li>Mr Robot</li>
+        </ol>
+        <div class="photo-container">
+            <div class="photo-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BYzVjNTRhNWItMzQzZS00MDBkLWIxNDMtOTU4MzRmMmNiZWRiXkEyXkFqcGdeQXVyMTUwMzE3NjY0._V1_FMjpg_UX1000_.jpg" alt="Snowfall">
+                <p>Ļoti nopietna filma, noskatijos visas 6 sezonas vienā nedēļā, man tā ļoti patīk.</p>
+            </div>
+            <div class="photo-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTU3NWI5OGMtZmZhNy00MjVmLTk1YzAtZjA3ZDA3NzcyNDUxXkEyXkFqcGdeQXVyODY5Njk4Njc@._V1_.jpg" alt="Breaking Bad">
+                <p>Arī ļoti nopietna filma, bet var ātri iemīlēties tajā</p>
+            </div>
+            <div class="photo-item">
+                <img src="https://m.media-amazon.com/images/M/MV5BM2QyNDIzOGMtNThhNS00NmUwLWI0ZjUtZjdkN2I1OTRjZWQ3XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg" alt="Mr Robot">
+                <p>Arī nopietna, skatitos 100x no jauna, laba.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Top 3 Films</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                width: 60%;
+                margin: 20px auto;
+            }
+            .photo-container {
+                display: flex;
+                flex-direction: column;
+            }
+            .photo-item {
+                text-align: left;
+                margin: 10px 0;
+            }
+            .photo-item img {
+                width: 50%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>My Top 3 Films</h1>
+            <p>Here is a list of my top 3 films:</p>
+            <ol>
+                <li>Snowfall</li>
+                <li>Breaking Bad</li>
+                <li>Suits</li>
+            </ol>
+            <div class="photo-container">
+                <div class="photo-item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYzVjNTRhNWItMzQzZS00MDBkLWIxNDMtOTU4MzRmMmNiZWRiXkEyXkFqcGdeQXVyMTUwMzE3NjY0._V1_FMjpg_UX1000_.jpg" alt="Snowfall">
+                    <p>Snowfall</p>
+                </div>
+                <div class="photo-item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTU3NWI5OGMtZmZhNy00MjVmLTk1YzAtZjA3ZDA3NzcyNDUxXkEyXkFqcGdeQXVyODY5Njk4Njc@._V1_.jpg" alt="Breaking Bad">
+                    <p>Breaking Bad</p>
+                </div>
+                <div class="photo-item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg" alt="Suits">
+                    <p>Suits</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+</html>
